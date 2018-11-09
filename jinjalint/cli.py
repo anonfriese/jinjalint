@@ -53,7 +53,7 @@ def main():
     config['verbose'] = verbose
     config['parse_only'] = arguments['--parse-only']
 
-    paths = list(resolve_file_paths(input_names, extensions=['.html']))
+    paths = list(resolve_file_paths(input_names, extensions=['.html', '.j2']))
 
     if verbose:
         print('Files being analyzed:')
