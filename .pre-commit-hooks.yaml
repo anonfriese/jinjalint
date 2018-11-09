@@ -8,4 +8,5 @@
   description: Run Jinja Linter
   entry: jinjalint
   language: python
+  language_version: python3
   files: '.j2$'
