@@ -6,7 +6,7 @@
 - id: jinjalint
   name: jinjalint
   description: Run Jinja Linter
-  entry: jinjalint
+  entry: jinjalint --parse-only
   language: python
   language_version: python3
   files: '.*j2$'
