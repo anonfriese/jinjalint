@@ -1,0 +1,11 @@
+---
+
+# For use with pre-commit.
+# See usage instructions at https://pre-commit.com
+
+- id: jinjalint
+  name: jinjalint
+  description: Run Jinja Linter
+  entry: jinjalint
+  language: python
+  files: '.j2$'
